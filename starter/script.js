@@ -324,7 +324,6 @@ btnSort.addEventListener('click', function (e) {
   displayMovements(currentAccount, !sorted);
   sorted = !sorted;
 });
-
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
@@ -433,8 +432,6 @@ setInterval(function () {
   const now = new Date();
   // console.log(now);
 }, 2000);
-
- 
 
 const now = new Date();
 console.log(now);
